@@ -11,7 +11,7 @@ function Payment() {
         <Navbar />
         <div className="paiement-container">
           <div className="col-1">
-            <h1>Payez et partez !</h1>
+            <h1>Payez et partez&nbsp;!</h1>
             <h2>
               Une <span className="underline-text">expérience</span> fluide et
               sans attente

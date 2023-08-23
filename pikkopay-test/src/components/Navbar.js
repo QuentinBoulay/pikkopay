@@ -1,4 +1,4 @@
-import { NavLink, Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import logo_pikkopay from "../assets/logo_pikkopay.svg";
 
 function Navbar() {
@@ -12,9 +12,9 @@ function Navbar() {
         </div>
         <ul className="nav-links">
           <li>
-            <NavLink to="/" activeClassName="active" className="btn-paiement">
+            <Link to="/#paiement" className="btn-paiement">
               Paiement
-            </NavLink>
+            </Link>
           </li>
         </ul>
       </div>
