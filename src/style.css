@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -81,7 +80,8 @@ nav {
   border-radius: 50px;
 }
 
-.btn-paiement:hover, .submit-button:hover {
+.btn-paiement:hover,
+.submit-button:hover {
   background-image: linear-gradient(225deg, #e2fc26, #f2e526);
 }
 
@@ -155,9 +155,9 @@ span.underline-text {
 }
 
 .form-content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 70px !important;
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px !important;
 }
 
 .form-container .input-container label {
@@ -175,7 +175,9 @@ span.underline-text {
   width: 2%;
 }
 
-#paygreen-pan-frame, #paygreen-cvv-frame, #paygreen-exp-frame {
+#paygreen-pan-frame,
+#paygreen-cvv-frame,
+#paygreen-exp-frame {
   width: 100% !important;
 }
 
@@ -222,7 +224,6 @@ span.underline-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .loader img {
@@ -248,23 +249,32 @@ span.underline-text {
   height: -webkit-fill-available;
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Footer */
 
 footer {
   padding: 3.75rem 145px 24px 145px;
-  background-color: var(--bg-color-nav); 
+  background-color: var(--bg-color-nav);
 }
 
 footer p.text-copyright {
-  border-top: 1px solid rgba(255, 255, 255, .2);
-    margin-top: 3.6875rem;
-    padding-top: 1.5rem;
-    color: rgba(255, 255, 255, .7);
-    text-align: center;
-    margin-bottom: 0;
-    font-size: .875rem;
-    font-weight: 400;
-    line-height: 1.375rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 3.6875rem;
+  padding-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.375rem;
 }
 
 .footer-container {
@@ -277,10 +287,10 @@ footer p.text-copyright {
 }
 
 .footer-paragraph {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   margin-bottom: 1.5rem;
   font-family: Poppins, sans-serif;
-  font-size: .75rem;
+  font-size: 0.75rem;
   line-height: 1.35rem;
 }
 
@@ -291,14 +301,13 @@ footer p.text-copyright {
 
 .social-link {
   width: 45px;
-  background-color:#27243c;
+  background-color: #27243c;
   border-radius: 30px;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    transition: all .2s ease-in-out;
-    display: flex;
-
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  display: flex;
 }
 
 .social-link:hover {
@@ -318,33 +327,24 @@ footer p.text-copyright {
 
 .footer-container .col-2 h3 {
   color: #fff;
-    margin-bottom: 1.5rem;
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 1.875rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.875rem;
 }
 
-.footer-container .col-2 a, footer p.text-copyright a {
-    color: rgba(255, 255, 255, .5);
-    margin-bottom: 0.75rem;
-    font-size: .875rem;
-    font-weight: 400;
-    line-height: 1.4875rem;
-    text-decoration: none;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.footer-container .col-2 a,
+footer p.text-copyright a {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4875rem;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
-
-  nav  {
+  nav {
     padding: 20px 20px;
   }
 
@@ -362,10 +362,11 @@ footer p.text-copyright {
 
   .paiement-container .col-1 img {
     margin: 0 0 0 50px;
-
   }
 
-  .paiement-container .col-1 h1, .paiement-container .col-1 h2, .paiement-container .col-1 p {
+  .paiement-container .col-1 h1,
+  .paiement-container .col-1 h2,
+  .paiement-container .col-1 p {
     text-align: center;
   }
 
@@ -380,21 +381,21 @@ footer p.text-copyright {
 
   .icons-payment img {
     width: 5%;
-}
+  }
 
-.form-content {
-  align-items: center;
-}
+  .form-content {
+    align-items: center;
+  }
 
-.form-content .group-input {
-  gap: 70px;
-  flex-direction: column;
-  align-items: center;
-}
+  .form-content .group-input {
+    gap: 70px;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.form-container .input-container {
-  width: 70% !important;
-}
+  .form-container .input-container {
+    width: 70% !important;
+  }
 
   .nav-links {
     height: 30px;
