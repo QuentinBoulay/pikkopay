@@ -5,19 +5,14 @@
 ### 1. **Clonage du dépôt**
 
 Si ce n'est pas déjà fait, clonez le dépôt sur votre machine locale :
-git clone [lien-du-depôt]
+git clone https://github.com/QuentinBoulay/pikkopay.git
 
-### 2. **Navigation vers le dossier du projet**
-
-Une fois le dépôt cloné, naviguez jusqu'au dossier contenant le projet :
-cd pikkopay-test
-
-### 3. **Installation des dépendances**
+### 2. **Installation des dépendances**
 
 Assurez-vous d'avoir Node.js et npm installés sur votre machine. Installez ensuite les dépendances du projet :
 npm install
 
-### 4. **Démarrage de l'application**
+### 3. **Démarrage de l'application**
 
 Après avoir installé les dépendances, vous pouvez démarrer l'application avec la commande suivante :
 npm start
