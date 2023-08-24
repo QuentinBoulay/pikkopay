@@ -5,7 +5,7 @@
 ### 1. **Clonage du dépôt**
 
 Si ce n'est pas déjà fait, clonez le dépôt sur votre machine locale :
-git clone [lien-du-depôt]
+git clone https://github.com/QuentinBoulay/pikkopay.git
 
 ### 2. **Navigation vers le dossier du projet**
 
