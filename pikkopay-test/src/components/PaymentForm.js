@@ -33,7 +33,7 @@ function PaymentForm() {
       },
     }),
     []
-  ); // empty dependency array means useMemo will only compute the style object once
+  );
 
   function handlePayment() {
     setLoading(true);
